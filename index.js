@@ -111,6 +111,7 @@ let score = 0;
 const questionElement = document.getElementById("question");
 const optionElement = document.getElementById("options");
 const nextBtn = document.getElementById("next-btn");
+const timer = document.getElementById("timer");
 const resultElement = document.getElementById("result");
 const restartBtn = document.getElementById("restart-btn");
 
