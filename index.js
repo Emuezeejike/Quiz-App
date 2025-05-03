@@ -64,7 +64,7 @@ const quizData = [
         options: [
             "Roma",
             "Chelsea",
-            "RonalManchester United",
+            "Manchester United",
             "Totthenham",
         ],
         correct: 3
@@ -85,7 +85,7 @@ const quizData = [
             "34",
             "36",
             "32",
-            "42",
+            "35",
         ],
         correct: 2
     },
@@ -111,7 +111,6 @@ let score = 0;
 const questionElement = document.getElementById("question");
 const optionElement = document.getElementById("options");
 const nextBtn = document.getElementById("next-btn");
-const timer = document.getElementById("timer");
 const resultElement = document.getElementById("result");
 const restartBtn = document.getElementById("restart-btn");
 
